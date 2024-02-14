@@ -3,8 +3,6 @@ import React from "react";
 import { Container, Row, Col, Button} from "react-bootstrap";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
   AiFillStar
 } from "react-icons/ai";
 import { CgGitFork } from "react-icons/cg";
