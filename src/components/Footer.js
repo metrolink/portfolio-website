@@ -1,11 +1,13 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+//import Button from "react-bootstrap/Button"
+import { Container, Row, Col, Button} from "react-bootstrap";
 import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
+  AiFillStar
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { CgGitFork } from "react-icons/cg";
 
 function Footer() {
   let date = new Date();
@@ -14,54 +16,19 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Soumyajit Behera</h3>
+          <h3>Template provided by Soumyajit Behera
+                <Button
+                href="https://github.com/soumyajit4419/Portfolio"
+                target="_blank"
+                className="fork-btn-inner"
+              >
+                <AiFillGithub/>
+                <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
+                <AiFillStar style={{ fontSize: "1.1em" }} />
+              </Button></h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} SB</h3>
-        </Col>
-        <Col md="4" className="footer-body">
-          <ul className="footer-icons">
-            <li className="social-icons">
-              <a
-                href="https://github.com/soumyajit4419"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiFillGithub />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://twitter.com/Soumyajit4419"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiOutlineTwitter />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://www.linkedin.com/in/soumyajit4419/"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <FaLinkedinIn />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://www.instagram.com/soumyajit4419"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiFillInstagram />
-              </a>
-            </li>
-          </ul>
+          <h3>Copyright © {year} Tor Andreas Røsæg</h3>
         </Col>
       </Row>
     </Container>

@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi! My name is Tor Andreas Røsæg
             <br/>
-            I am a 26 year old newly graduated software developer with a master in Software engineering from University of Bergen. I also have a bachelor in Game Technology and simulation 
+            I am a 25 year old newly graduated software developer with a master in Software engineering from University of Bergen. I also have a bachelor in Game Technology and simulation 
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
