@@ -29,7 +29,7 @@ function Projects() {
               //imgPath={bitsOfCode}
               isBlog={false}
               title="Specifying actor based computer games"
-              description="In this project we are combining actors and computer games to create a concurrent computer game. In this simple game, we are demonstrating how interactions between two players can happen in a computer game."
+              description="My master thesis about combining concurrent actors and video games to create a concurrent video game in Scala."
               ghLink="https://github.com/metrolink/GameLang"
             />
           </Col>
