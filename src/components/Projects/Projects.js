@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import CardLordHighSchool from "../../Assets/Projects/CardLordHighSchool.PNG";
+import ReminderBot from "../../Assets/Projects/reminder_bot.png";
 
 function Projects() {
   return (
@@ -28,17 +29,17 @@ function Projects() {
               //imgPath={bitsOfCode}
               isBlog={false}
               title="Specifying actor based computer games"
-              description="In this project we are combining actors and computer games to create a concurrent computer game."
+              description="In this project we are combining actors and computer games to create a concurrent computer game. In this simple game, we are demonstrating how interactions between two players can happen in a computer game."
               ghLink="https://github.com/metrolink/GameLang"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              //imgPath={editor}
+              imgPath={ReminderBot}
               isBlog={false}
               title="RemindMe Bot"
-              description="A discord bot I made for my friend group"
+              description="A discord bot I made for my friend group. It's purpose is to send reminders to friends about events that is coming up"
               discordLink="https://discord.com/api/oauth2/authorize?client_id=1124302450971639879&permissions=3283503544384&scope=bot+applications.commands/"              
               ghLink="https://github.com/metrolink/remind_bot"
             />

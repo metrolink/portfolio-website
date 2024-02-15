@@ -14,21 +14,18 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              A sshort introduction about me
+              A short introduction about me
             </h1>
             <p className="home-about-body">
-              I am very good at coding
+              I am a newly graduated software engineer and enjoys finding elegant solutions to tricky problems.
               <br/>
-              <br/>I specialize in back-end object oriented languages like
-              <i>
-                <b className="purple"> C++, Java and Scala. </b>
-              </i>
+              <br/>I specialize in back-end object oriented languages like C++, Java and Scala.
               <br/>
               <br/>
-              I am interested in
-              <i>
-                <b className="purple"> software development </b>
-              </i>
+              <br/>Though I also have some experience in front-end, with languages such as react.
+              <br/>
+              I am interested in software development where I can create tools or APIs for other people to use, and make other people's lives easier.
+              
             </p>
           </Col>
           <Col md={4} className="myAvtar">

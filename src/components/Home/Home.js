@@ -2,8 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
-import Home2 from "./Home2";
-import Type from "./Type";
+import Introduction from "./Introduction";
 
 function Home() {
   return (
@@ -21,13 +20,9 @@ function Home() {
               </h1>
 
               <h1 className="heading-name">
-                I'M
+                I'm
                 <strong className="main-name"> Tor Andreas Røsæg</strong>
               </h1>
-
-              <div style={{ padding: 50, textAlign: "left" }}>
-                <Type />
-              </div>
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
@@ -41,7 +36,7 @@ function Home() {
           </Row>
         </Container>
       </Container>
-      <Home2 />
+      <Introduction />
     </section>
   );
 }

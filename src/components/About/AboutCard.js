@@ -10,17 +10,17 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi! My name is Tor Andreas Røsæg
             <br/>
-            I am a 25 year old newly graduated software developer with a master in Software engineering from University of Bergen. I also have a bachelor in Game Technology and simulation 
-            <br />
-            <br />
+            I am a 25 year old newly graduated software developer with a master in Software engineering from University of Bergen. I also have a bachelor in Game Technology and Simulation 
+            <br/>
+            <br/>
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Playing Video Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> bouldering
+              <ImPointRight /> Bouldering
             </li>
             <li className="about-activity">
               <ImPointRight /> Travelling

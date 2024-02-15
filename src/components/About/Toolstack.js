@@ -16,6 +16,12 @@ function Toolstack() {
         <SiWindows10 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiQt />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiIntellijidea />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -24,12 +30,8 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiSlack />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiQt />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiIntellijidea />
-      </Col>
+      
+      
     </Row>
   );
 }
