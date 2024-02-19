@@ -59,6 +59,7 @@ function Home2() {
                 </a>
               </li>
             </ul>
+            <h2>or contact me at something@t-rosag.no</h2>
           </Col>
         </Row>
       </Container>
