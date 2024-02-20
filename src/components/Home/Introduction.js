@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-import ContactForm from "./ContactForm";
 import {
   AiFillGithub,
 } from "react-icons/ai";
@@ -60,8 +59,6 @@ function Home2() {
                 </a>
               </li>
             </ul>
-            {/*<h2>or contact me at</h2>
-            <ContactForm />*/}
           </Col>
         </Row>
       </Container>
