@@ -5,6 +5,7 @@ import {
   AiFillGithub,
   AiFillStar
 } from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
 import { CgGitFork } from "react-icons/cg";
 
 function Footer() {
@@ -27,6 +28,26 @@ function Footer() {
         </Col>
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year} Tor Andreas Røsæg</h3>
+        </Col>
+        
+        <Col md="4" className="footer-copywright">
+        <a
+                  href="https://www.linkedin.com/in/torrosag/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <FaLinkedinIn />
+                </a>
+
+                <a
+                  href="https://github.com/metrolink"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <AiFillGithub />
+                </a>
         </Col>
       </Row>
     </Container>
