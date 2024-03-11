@@ -22,8 +22,6 @@ function Footer() {
                 className="fork-btn-inner"
               >
                 <AiFillGithub/>
-                <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
-                <AiFillStar style={{ fontSize: "1.1em" }} />
               </Button></h3>
         </Col>
         <Col md="4" className="footer-copywright">
