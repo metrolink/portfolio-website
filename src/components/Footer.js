@@ -2,11 +2,9 @@ import React from "react";
 //import Button from "react-bootstrap/Button"
 import { Container, Row, Col, Button} from "react-bootstrap";
 import {
-  AiFillGithub,
-  AiFillStar
+  AiFillGithub
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import { CgGitFork } from "react-icons/cg";
 
 function Footer() {
   let date = new Date();
