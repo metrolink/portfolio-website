@@ -44,6 +44,15 @@ function Projects() {
               ghLink="https://github.com/metrolink/remind_bot"
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              //imgPath={ReminderBot}
+              isBlog={false}
+              title="CakeMaker API"
+              description="API for a bakery project I made for a family member"
+              ghLink="https://github.com/metrolink/CakeMaker-API"
+            />
+          </Col>
         </Row>
       </Container>
     </Container>
