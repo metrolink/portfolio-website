@@ -4,6 +4,8 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import CardLordHighSchool from "../../Assets/Projects/CardLordHighSchool.PNG";
 import ReminderBot from "../../Assets/Projects/reminder_bot.png";
+import CakeImg from "../../Assets/Projects/cake.jpg";
+
 
 function Projects() {
   return (
@@ -46,7 +48,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              //imgPath={ReminderBot}
+              imgPath={CakeImg}
               isBlog={false}
               title="CakeMaker API"
               description="API for a bakery project I made for a family member"
