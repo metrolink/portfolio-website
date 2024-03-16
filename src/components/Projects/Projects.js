@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import CardLordHighSchool from "../../Assets/Projects/CardLordHighSchool.PNG";
-import ReminderBot from "../../Assets/Projects/reminder_bot.png";
+import ReminderBot from "../../Assets/Projects/discord-mark-blue.svg";
 import CakeImg from "../../Assets/Projects/cake.jpg";
 
 
@@ -35,6 +35,15 @@ function Projects() {
               ghLink="https://github.com/metrolink/GameLang"
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={CakeImg}
+              isBlog={false}
+              title="CakeMaker API"
+              description="API for a bakery project I made for a family member"
+              ghLink="https://github.com/metrolink/CakeMaker-API"
+            />
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -46,15 +55,7 @@ function Projects() {
               ghLink="https://github.com/metrolink/remind_bot"
             />
           </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={CakeImg}
-              isBlog={false}
-              title="CakeMaker API"
-              description="API for a bakery project I made for a family member"
-              ghLink="https://github.com/metrolink/CakeMaker-API"
-            />
-          </Col>
+          
         </Row>
       </Container>
     </Container>
