@@ -19,7 +19,7 @@ function Home2() {
             <p className="home-about-body">
               I am a newly graduated software engineer and enjoys finding elegant solutions to tricky problems.
               <br/>
-              <br/>I specialize in back-end object oriented languages like C++, Java and Scala.
+              <br/>I specialize in object oriented languages like C++, Java and Scala.
               <br/>
               <br/>
               <br/>Though I also have some experience in front-end, with languages such as react.
