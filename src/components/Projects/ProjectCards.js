@@ -10,7 +10,7 @@ function ProjectCards(props) {
     <Card className="project-card-view">
       <Card.Img variant="top" src={props.imgPath} />
       {props.YTvideo && (
-          <ReactPlayer url={props.YTvideo} />
+          <ReactPlayer url={props.YTvideo} width="380px"/>
         )}
       <Card.Body>
         
