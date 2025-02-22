@@ -1,19 +1,19 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-  SiVisualstudiocode,
   SiPostman,
   SiSlack,
   SiQt,
-  SiWindows10,
   SiIntellijidea
 } from "react-icons/si";
+
+import { DiVisualstudio, DiWindows } from "react-icons/di";
 
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons" title="Windows">
-        <SiWindows10 />
+        <DiWindows10 />
       </Col>
       <Col xs={4} md={2} className="tech-icons" title="QT5">
         <SiQt />
@@ -22,7 +22,7 @@ function Toolstack() {
         <SiIntellijidea />
       </Col>
       <Col xs={4} md={2} className="tech-icons" title="VS Code">
-        <SiVisualstudiocode />
+        <DiVisualstudio />
       </Col>
       <Col xs={4} md={2} className="tech-icons" title="Postman">
         <SiPostman />
