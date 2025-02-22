@@ -40,7 +40,7 @@ function Projects() {
               imgPath={CakeImg}
               isBlog={false}
               title="CakeMaker API"
-              description="API for a bakery project I made for a family member"
+              description="Very small API for a bakery project I made for a family member"
               ghLink="https://github.com/metrolink/CakeMaker-API"
             />
           </Col>
@@ -58,7 +58,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              YTvideo="https://youtu.be/Bl7J_QO0ZJI"
+              YTvideo="https://www.youtube.com/embed/Bl7J_QO0ZJI?si=cC_1kcbbHUJ0_o60"
               isBlog={false}
               title="Physics based simulation"
               description="Showcase of physics based simulation where a ball is rolling on a hill"

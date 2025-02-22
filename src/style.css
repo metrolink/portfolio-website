@@ -471,6 +471,7 @@ button:focus {
 .reactplayer{
   width: 100% !important;
 }
+
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;

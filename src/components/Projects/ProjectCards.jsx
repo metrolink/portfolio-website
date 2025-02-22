@@ -3,15 +3,21 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
-import ReactPlayer from "react-player";
+//import ReactPlayer from "react-player";
 
 function ProjectCards(props) {
   return (
     <Card className="project-card-view">
       <Card.Img variant="top" src={props.imgPath} />
       {props.YTvideo && (
-          <ReactPlayer className="reactplayer" url={props.YTvideo}/>
-        )}
+        <iframe 
+        src={props.YTvideo} 
+        title="YouTube video player" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerPolicy="strict-origin-when-cross-origin" 
+        allowFullScreen>
+        </iframe>        
+      )}
       <Card.Body>
         
         <Card.Title>{props.title}</Card.Title>
