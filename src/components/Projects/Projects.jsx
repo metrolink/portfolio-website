@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import CardLordHighSchool from "../../Assets/Projects/CardLordHighSchool.PNG";
+import CardLordHighSchool from "../../Assets/Projects/CardLordHighSchool.png";
 import ReminderBot from "../../Assets/Projects/discord-mark-blue.svg";
 import CakeImg from "../../Assets/Projects/cake.jpg";
 
